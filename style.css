@@ -1,6 +1,6 @@
 .jumbotron{
     padding-top: 5rem;
-    background-color: rgb(243, 243, 243);
+    background-color: #273036;
 }
 
 .pp{
@@ -13,6 +13,19 @@
     width: 200px;
 }
 
+.jumbotron > h2{
+    color: white;
+    font-weight: 400;
+}
+
+.jumbotron > p{
+    color: white;
+}
+
 .rowam{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+}
+
+#projects{
+    background-color: #273036;
 }
