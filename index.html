@@ -15,10 +15,10 @@
     <title>web falaahhhh</title>
 </head>
 
-<body>
+<body id="home">
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #273036">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: #273036">
         <div class="container">
             <a class="navbar-brand" href="#">Falah</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -28,16 +28,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Project</a>
+                        <a class="nav-link" href="#projects">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -160,20 +160,20 @@
                     <form>
                         <div class="mb-3">
                             <label for="nama" class="form-label">Nama Lengkap</label>
-                            <input type="nama" class="form-control" id="nama" aria-describedby="nama">
+                            <input type="nama" class="glow" id="nama" aria-describedby="nama">
                             
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email">
+                            <input type="email" class="glow" id="email" aria-describedby="email">
                             
                         </div>
                         <div class="mb-3">
                             <label for="pesan" class="form-label">Pesan</label>
-                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                            <textarea class="glow" id="pesan" rows="3"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Kirim</button>
+                        <button type="submit" class="tombol">Kirim</button>
                     </form>
                 </div>
             </div>
@@ -181,7 +181,11 @@
     </section>
     <!-- akhir contact -->
 
-
+    <!-- footer -->
+    <footer class="bagbawah text-center pt-2 pb-2">
+        <p>Created with love by <a class="text-white text-bold" href="https://www.instagram.com/falahdrrhmn_/">Muhammad Falah A</a></p>
+    </footer>
+    <!-- akhir footer -->
 
     <!-- link js bootsrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
